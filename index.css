@@ -1,0 +1,116 @@
+/*HEADER STYLES*/
+
+/* #7d7166 -> #31567b
+   #59c1dd -> #5D7BC3
+   #ff8a00 -> #ffce6a -> #eaa71e -> #fdad0b
+   #596F70 -> #31567b
+   #c7ccb1 -> #8b9299
+   #b4b8bd -> #d3d6d9 -> #c9cccf
+*/
+
+/* colors:
+med/light/dark
+
+red: aa5039/ffbcaa/551200
+yellow: aa8339/ffe2aa/553800
+blue: 2d4471/7788aa/061739
+green: 28794c/79b694/003d1a
+*/
+
+.buttonr {
+	display: block;
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+
+    background-color: #ffbcaa;
+    color: #aa5039; 
+
+}
+
+.buttonr {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 100px;
+
+	text-decoration: none;
+	text-transform: uppercase;
+
+	-webkit-transition: all .35s ease-out;
+	-moz-transition: all 0.35s ease-out;
+	-o-transition: all 0.35s ease-out;
+	transition: all 0.35s ease-out;
+}
+
+.buttonr:hover {
+	background-color: #aa5039;
+	color: #551200;
+}
+
+#photo{
+	right:0;
+	text-align: right;
+	background-color: #ffe2aa;
+    color: #aa8339; 
+    left:50%;
+}
+#photo:hover {
+	background-color: #aa8339;
+	color: #553800;
+}
+
+#blog{
+	top:50%;
+	text-align: left;
+	background-color: #7788aa;
+    color: #2d4471; 
+}
+#blog:hover {
+	background-color: #2d4471;
+	color: #061739;
+}
+
+#links{
+	top:50%;
+	left:50%;
+	text-align: right;
+	background-color: #79b694;
+    color: #28794c; 
+}
+#links:hover {
+	background-color: #28794c;
+	color: #003d1a;
+}
+
+
+
+.title{
+	margin-left: 20px;
+	margin-top: 16px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	line-height: 80px;
+}
+
+.title2{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 23px;
+	line-height: 80px;
+	position: absolute;
+	bottom: 0;
+}
+
+.title3{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 23px;
+	line-height: 80px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

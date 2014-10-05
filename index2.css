@@ -1,0 +1,102 @@
+/*HEADER STYLES*/
+
+/* http://paletton.com/#uid=70a0L0kllllaFw0g0qFqFg0w0aF */
+
+/* #7d7166 -> #31567b
+   #59c1dd -> #5D7BC3
+   #ff8a00 -> #ffce6a -> #eaa71e -> #fdad0b
+   #596F70 -> #31567b
+   #c7ccb1 -> #8b9299
+   #b4b8bd -> #d3d6d9 -> #c9cccf
+*/
+
+/* colors:
+med/light/dark
+
+red: aa5039/ffbcaa/551200
+yellow: aa8339/ffe2aa/553800
+blue: 2d4471/7788aa/061739
+green: 28794c/79b694/003d1a
+*/
+
+
+div.projectcontainer
+{
+	z-index: 2;
+	background-color:#cccccc;
+	color:#1a1b1d;
+	width: 242px;
+	height: 198px;
+	padding: 10px;
+
+	position: fixed;
+
+	top: -webkit-calc(50% - 109px);
+	top: -moz-calc(50% - 109px);
+	top: -o-calc(50% - 109px);
+	top: calc(50% - 109px);
+
+	left: -webkit-calc(50% - 131px);
+	left: -moz-calc(50% - 131px);
+	left: -o-calc(50% - 131px);
+	left: calc(50% - 131px);
+
+	margin: 0px auto 0px auto;
+	text-align: center;
+
+}
+
+div.projectcontainer a
+{
+	z-index: 2;
+	text-align: center;
+	display: inline-block;
+	font-weight: 700;
+	color: #666666;
+	/*text-shadow: 0px 1px 3px #a4a894;*/
+}
+
+div.projectcontainer a:hover
+{
+	z-index: 2;
+	color: #dadada;
+
+}
+
+/*IMAGES AND THUMBS*/
+
+img.project
+{
+	border: 1px solid #999999;
+	margin-right: 12px;
+	float: left;
+}
+
+
+.aboutpic
+{
+   
+	margin: 0px auto 16px auto;
+  	border: 1px solid #999999;
+  	border-radius: 10px;
+  
+}
+
+.thumb 
+{
+  display: inline-block;
+  margin: 4px 4px 4px 4px;
+  line-height: 0;
+ 
+  border: 1px solid #999999;
+  
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.thumb:hover
+{
+  border: 1px solid #FFFFFF;
+}

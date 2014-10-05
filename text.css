@@ -1,0 +1,115 @@
+
+/*HEADER STYLES*/
+body
+{
+	z-index: -5;
+	background-color:#dadada;
+	color:#8b9299;
+	font-size: 13.5px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a.menu
+{
+	font-weight: 400;
+	color: #FFFFFF;
+
+	text-decoration: none;
+	
+	letter-spacing: 1px;
+	margin-left: 8px;
+
+	
+	-webkit-transition: all .35s ease-out;
+  	-moz-transition: all 0.35s ease-out;
+  	-o-transition: all 0.35s ease-out;
+  	transition: all 0.35s ease-out;
+}
+
+a.menu:hover
+{
+	color:#fdad0b;	
+}
+
+a
+{
+	text-decoration: none;
+	color:#dadada;
+	font-weight: 700;
+	-webkit-transition: all .25s ease-out;
+  	-moz-transition: all 0.25s ease-out;
+  	-o-transition: all 0.25s ease-out;
+  	transition: all 0.25s ease-out;
+}
+
+a:hover
+{
+	color:#dadada;
+}
+
+i
+{
+	color: #dadada;
+}
+
+
+h1 /*Large Grey Title Text*/
+{
+	margin: 4px 0px 4px 0px;
+	font-weight: 700;
+	color: #31567b;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	text-align: center;		
+	text-transform: uppercase;
+}
+
+h2 /*Blue, thin*/
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 4px 0px 16px 0px;
+	color:#5D7BC3;
+	font-size:25px;
+	text-align: center;
+}
+
+
+h3 /*Orange Title Text Projects*/
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	
+ 	text-transform: uppercase;
+ 	
+  	color: #092A4A;
+}
+
+h4 /*Grey tagline text for projects*/
+{
+	color:#31567b;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: -4px;
+	margin-bottom: 8px;
+}
+
+h5 /*Orange Title Text Art*/
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	
+ 	text-transform: uppercase;
+ 	letter-spacing: 0.03em;
+  	color: #fdad0b;
+}

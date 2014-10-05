@@ -1,0 +1,53 @@
+.buttonr {
+	z-index: 1;
+	display: block;
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+
+    background-color: #dadada;
+    color: #666666; 
+
+}
+
+.buttonr {
+	z-index: 1;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 100px;
+
+	text-decoration: none;
+	text-transform: uppercase;
+
+	-webkit-transition: all .35s ease-out;
+	-moz-transition: all 0.35s ease-out;
+	-o-transition: all 0.35s ease-out;
+	transition: all 0.35s ease-out;
+}
+
+.buttonr:hover {
+	background-color: #aa5039;
+	color: #551200;
+}
+
+#photo{
+	right:0;
+	text-align: right;
+	background-color: #dadada;
+    color: #666666; 
+    left:50%;
+}
+#photo:hover {
+	background-color: #aa8339;
+	color: #553800;
+}
+
+.title{
+	display:inline-block;
+	vertical-align:middle;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 80px;
+}
